@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>UNIS POUR TOUS</title>
+		<link rel="stylesheet" href="../css/inscription.css">
+		<style>
+			body { margin: 0; }
+		</style>
+	</head>
+
+	<body>
+		
+<div class="container" id="container">
+  <div class="form-container sign-up-container">
+    <form>
+      <h1>S'inscrire</h1>
+      <br>
+      <input type="number" placeholder="Numéro carte étudiante" />
+      <input type="text" placeholder="Prénom" readonly />
+      <input type="text" placeholder="Nom" readonly />
+      <input type="email" placeholder="nom@email.com" />
+      <br>
+      <button>Créer un compte</button>
+    </form>
+  </div>
+  <div class="form-container sign-in-container">
+    <form action="#">
+      <h1>Connexion</h1>
+      <br>
+      <input type="email" placeholder="Identifiant ou carte étudiante" />
+      <input type="password" placeholder="Mot de passe" />
+      <a href="#">Mot de passe oublié?</a>
+      <button>Connexion</button>
+    </form>
+  </div>
+  <div class="overlay-container">
+    <div class="overlay">
+      <div class="overlay-panel overlay-left">
+        <p><input type="checkbox" id=""> J’ai lu et j’accepte les <a href="\pages\cgu.aspx" target="_blank">conditions générales d’utilisation</a></p>
+        <p><input type="checkbox" id="">Je déclare sur l’honneur être un étudiant français</p>
+        <p><b>Vous avez déjà un compte ?<a class="ghost" id="signIn">Connexion</a></b></p>
+
+      </div>
+      <div class="overlay-panel overlay-right">
+        <h1>Bonjour</h1>
+        <a href="https://edit.ebmfrance.net/"><img src="../img/con-rm.png" width="200"></a>
+        <p><b>Vous n'avez pas de compte ? <a class="ghost" id="signUp">S'inscrire</a></b></p>
+
+      </div>
+    </div>
+  </div>
+</div>
+		<script src="https://code.jquery.com/jquery-3.6.4.slim.min.js" integrity="sha256-a2yjHM4jnF9f54xUQakjZGaqYs/V1CYvWpoqZzC2/Bw=" crossorigin="anonymous"></script>
+		<script src="../js/insjs.js"> </script>
+		
+	</body>
+</html>
