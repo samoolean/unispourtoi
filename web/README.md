@@ -1,1 +1,1 @@
-se dossier permet de sauvgardeer tt
+Ici sont stockée toute les pages web du site
